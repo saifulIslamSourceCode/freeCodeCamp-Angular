@@ -32,11 +32,17 @@ var Color;
     Color[Color["blue"] = 2] = "blue";
 })(Color || (Color = {}));
 let c = Color.green;
-console.log(c);
+// console.log(c)
 //Tuple
 let swapNumbers;
 function swapNumbersFn(num1, num2) {
     return [num2, num1];
 }
 swapNumbers = swapNumbersFn(10, 30);
-console.log(swapNumbers[0]);
+swapNumbers[0];
+//any
+function add1(num1, num2) {
+    return num1 + num2;
+}
+let newSum = add1(10, 20);
+//Function

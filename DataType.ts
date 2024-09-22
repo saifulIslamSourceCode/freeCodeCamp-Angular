@@ -40,7 +40,7 @@ enum Color {
     blue
 }
 let c = Color.green;
-console.log(c)
+// console.log(c)
 
 
 //Tuple
@@ -53,7 +53,10 @@ swapNumbers = swapNumbersFn(10, 30);
 swapNumbers[0];
 
 //any
-function add(num1: number, num2: number) {
+function add1(num1: number, num2: number): number {
     return num1 + num2
 }
-let newSum = add(10, 20)
+let newSum = add1(10, 20)
+
+//Function
+
